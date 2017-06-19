@@ -78,6 +78,7 @@ class Menu extends Lib\Crud
         $menu = $this->db->getObject($table, $id);
         return $menu;
     }
+    
     public function menuDelete($menuId)
     {
         $menuId = intval($menuId);
